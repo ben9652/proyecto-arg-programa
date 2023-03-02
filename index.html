@@ -1,12 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/corbel" rel="stylesheet">
+  <title>CV Benjamín Boeri</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+  <header>
+    <h1 class="my_name">Benjamín Boeri</h1>
+    <div class="header_line"></div>
+  </header>
+
+  <section class="secciones">
+    <section class="my_data">
+        <div class="my_data item">
+          <img class="icono_dato" src="./img/phone.png" alt="phone">
+          <div class="dato">+54 9 381 668-3320</div>
+        </div>
+
+        <div class="my_data item">
+          <img class="icono_dato" src="./img/mail.png" alt="mail">
+          <div class="dato"><a href="mailto:ben9652@gmail.com" target="_blank">ben9652@gmail.com</a></div>
+        </div>
+
+        <div class="my_data item">
+          <img class="icono_dato" src="./img/location.png" alt="location">
+          <div class="dato">San Miguel de Tucumán, Tucumán - Argentina</div>
+        </div>
+
+        <div class="my_data item">
+          <img class="icono_dato" src="./img/linkedin.png" alt="linkedin">
+          <div class="dato"><a href="https://www.linkedin.com/in/benjamín-boeri-9965311b2/" target="_blank">Perfil en LinkedIn</a></div>
+        </div>
+        
+        <div class="my_data item">
+          <img class="icono_dato" src="./img/github.png" alt="github">
+          <div class="dato"><a href="https://github.com/ben9652" target="_blank">Cuenta de gitHub</a></div>
+        </div>
+    </section>
+
+    <article class="introduccion_a_mi">
+      <div class="introduccion_a_mi rectangulo"></div>
+      <h1 class="introduccion_a_mi titulo_seccion">ACERCA DE MÍ</h1>
+      <div class="introduccion_a_mi seccion_introduccion">
+        <h3 class="introduccion_a_mi descripcion_texto">Introducción breve a mi carrera y perfil</h3>
+        <div class="introduccion_a_mi texto">
+          <p>Soy un estudiante avanzado de Ingeniería en Computación, consistente en la integración de las áreas de software, hardware, y redes.</p>
+          <p>Tengo muchas ganas de trabajar en un puesto en el que deba resolver problemas técnicos en los cuales pueda aplicar los conocimientos adquiridos a lo largo de mi carrera, y sobre todo ganas de aprender mucho más.</p>
+        </div>
+      </div>
+      <div class="introduccion_a_mi linea"></div>
+    </article>
+  </section>
+  
+  <section class="hab_y_conoc">
+    <h1 class="hab_y_conoc titulo">HABILIDADES</h1>
+    <article class="habilidades">
+      <h3>Aptitudes</h3>
+      <ul>
+        <li>Trabajo con autonomía y en equipo</li>
+        <li>Sentido de la responsabilidad</li>
+        <li>Receptividad ante opiniones, críticas y sugerencias</li>
+        <li>Adquisición de nuevos conocimientos</li>
+        <li>Implementación de soluciones</li>
+      </ul>
+    </article>
+
+    <section class="conocimientos">
+      <h3>Conocimientos técnicos</h3>
+      <article>
+        <h4>Software</h4>
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+        </ul>
+      </article>
+      <article>
+        <h4>Hardware</h4>
+        <ul>
+          <li>Línea Cortex de procesadores</li>
+          <li>Arquitectura de procesadores</li>
+        </ul>
+      </article>
+      <article>
+        <h4>Redes</h4>
+        <ul>
+          <li>Modelo TCP/IP</li>
+          <li>Sockets</li>
+        </ul>
+      </article>
+    </section>
+
+    <div class="hab_y_conoc linea"></div>
+  </section>
+
+  <section class="formacion">
+    <section class="formacion educacion">
+      <h1>EDUCACIÓN</h1>
+      <article>
+        <div class="itemsEducacion">
+          <div>
+            <h3>Título en Humanidades y Ciencias Sociales</h3>
+            <h4>Colegio Salesiano General Belgrano</h4>
+            <p>2005 - 2014</p>
+          </div>
+          <div>
+            <h3>Ingeniero en Computación</h3>
+            <h4>Universidad Nacional de Tucumán</h4>
+            <p>2015 - En curso</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="formacion proyectos">
+      <h1>PROYECTOS</h1>
+      <article class="itemsProyectos">
+        <ul>
+          <li>Programación en C de un renderizado de figuras 3D regulares</li>
+          <li>Programación desde cero de una red neuronal</li>
+          <li>Diseño completo de una base de datos e implementación de la misma en SQL</li>
+          <li>Diseño del hardware de una cafetera de cápsulas</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="formacion idiomas">
+      <h1>IDIOMAS</h1>
+      <article class="itemsIdiomas">
+        <section>
+          <ul>
+            <li>
+              <h3>Inglés</h3>
+              <ul>
+                <li>Certificado A1+ del curso de <b>Inglés Nivel Dos</b> de la UNC</li>
+                <li>ESFET 62 (Avanzado)</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </section>
+  </section>
 </body>
 </html>

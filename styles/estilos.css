@@ -1,0 +1,229 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(29,50,81,1) 54%, rgba(0,212,255,1) 100%);
+    color: rgb(205,237,218);
+    height: 200px;
+    width: 100%;
+}
+
+.my_name {
+    margin: 0px;
+    font-family: 'Arvo', serif;
+    position: relative;
+    font-weight: 100;
+    top: 25%;
+    left: 20px;
+    width: 140px;
+    height: 80px;
+}
+
+.header_line {
+    border-bottom: 1px solid white;
+    width: 100%;
+    position: relative;
+    top: 30%;
+    left: 20px;
+}
+
+/* Aquí comienza la información sobre mí */
+.secciones {
+    display: flex;
+    align-items: flex-start;
+}
+
+.my_data {
+    background-color: rgb(242,242,242);
+    font-family: 'Arvo', serif;
+    font-size: medium;
+    color: rgb(38,38,38);
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icono_dato {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.my_data.item {
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 20px;
+    width: calc(100% - 20px);
+}
+
+.my_data a {
+    color: rgb(254,0,102);
+}
+
+.my_data a:active {
+    color: rgb(1,255,153);
+    background-color: black;
+}
+
+.introduccion_a_mi {
+    width: calc(100% - 300px);
+    position: relative;
+}
+
+.introduccion_a_mi.rectangulo {
+    width: 100%;
+    height: 12px;
+    margin-bottom: 10px;
+    background-color: rgb(205,237,218);
+}
+
+.introduccion_a_mi.titulo_seccion {
+    font-family: 'Corbel', sans-serif;
+    font-size: 30px;
+    color: rgb(29,50,81);
+    padding-left: 50px;
+    margin: 0;
+}
+
+.introduccion_a_mi.seccion_introduccion {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.introduccion_a_mi.descripcion_texto {
+    color: rgb(29,50,81);
+    width: 100px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.introduccion_a_mi.texto {
+    padding-left: 30px;
+    width: calc(100% - 200px);
+    font-family: 'Corbel', sans-serif;
+}
+
+.introduccion_a_mi.linea {
+    border-bottom: 1px solid rgb(217,217,217);
+    position: absolute;    
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.hab_y_conoc {
+    position: absolute;
+    width: 300px;
+    padding-left: 10px;
+    top: 450px;
+    float: left;
+}
+
+.hab_y_conoc.linea {
+    background-color: rgb(217,217,217);
+    height: 1px;
+    width: 550px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 275px;
+    left: 50px;
+}
+
+.hab_y_conoc.titulo {
+    position: absolute;
+    top: -50px;
+    font-family: 'Corbel', sans-serif;
+    font-size: 30px;
+    color: rgb(29,50,81);
+    /* text-align: center; */
+    border-right: 0px;
+}
+
+.hab_y_conoc h3 {
+    font-family: 'Corbel', sans-serif;
+    font-size: 24px;
+    color: rgb(29,50,81);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 11px;
+}
+
+.hab_y_conoc h4 {
+    font-family: 'Corbel', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.hab_y_conoc ul {
+    font-family: 'Corbel', sans-serif;
+    margin-top: 0;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 60px;
+}
+
+.formacion {
+    /* top: 430px; */
+    float: right;
+    width: calc(100% - 180px);
+}
+
+.formacion h1 {
+    font-family: 'Corbel', sans-serif;
+    font-size: 30px;
+    color: rgb(29,50,81);
+    margin-bottom: 5px;
+}
+
+.formacion h3 {
+    font-family: 'Corbel', sans-serif;
+    font-size: 24px;
+    color: rgb(29,50,81);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.formacion h4 {
+    font-family: 'Corbel', sans-serif;
+    margin: 0;
+}
+
+.formacion p {
+    margin: 0;
+}
+
+.itemsEducacion {
+    padding-left: 20px;
+}
+
+.itemsProyectos {
+    font-family: 'Corbel', sans-serif;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.itemsProyectos ul {
+    margin: 0;
+}
+
+.itemsIdiomas {
+    font-family: 'Corbel', sans-serif;
+    font-size: 18px;
+}
+
+.itemsIdiomas ul {
+    margin: 0;
+}
+
+.itemsIdiomas h3 {
+    margin: 0;
+}
